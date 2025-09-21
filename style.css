@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+}
+.container {
+  width: 720px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(20,20,40,0.06);
+}
+h1 { text-align:center; margin-bottom: 16px; }
+form { display:flex; gap:12px; justify-content:center; margin-bottom: 16px; }
+button {
+  background:#0077cc; color:white; border:none; padding:8px 14px; border-radius:6px; cursor:pointer;
+}
+.hidden { display:none; }
+#result { margin-top: 16px; }
+pre { white-space: pre-wrap; }

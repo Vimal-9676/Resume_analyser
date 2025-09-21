@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Resume Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Analyzer</h1>
+    <form id="uploadForm">
+      <input type="file" id="resumeFile" accept=".pdf" required />
+      <button type="submit">Upload & Analyze</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Analysis Result</h2>
+      <p><strong>Score:</strong> <span id="score"></span>/10</p>
+      <p><strong>Skills:</strong> <span id="skills"></span></p>
+      <p><strong>Summary:</strong> <span id="summary"></span></p>
+      <h3>Suggestions</h3>
+      <ul id="suggestions"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
